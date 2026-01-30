@@ -29,4 +29,5 @@ end
 inconsistent_PRN = find(calculated_PRN ~= SV.PRN);
 
 % Display inconsistent PRN
+
 disp(['Inconsistent PRN to be excluded: ', num2str(inconsistent_PRN)]);
