@@ -74,4 +74,5 @@ grid on;
 saveas(gcf, 'SV_Longitude_Latitude_Plot.png');
 
 % Display the maximum latitude attained by the SV
+
 fprintf('Maximum Latitude Attained by the SV: %.6f degrees\n', max_latitude);
